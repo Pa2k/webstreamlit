@@ -3,4 +3,4 @@ matplotlib
 opencv-python
 streamlit
 scikit-learn ==1.2.1
-
+opencv-python-headles
