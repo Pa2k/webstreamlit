@@ -51,7 +51,7 @@ def main():
         with st.expander("**_IMAGE_** :camera_with_flash:", expanded=True):
             st.image(uploaded_file, use_column_width=True)
         #เรียกใช้def()
-        #เตรียมรูปจาการอัปโหลด
+        #เตรียมรูปจากการอัปโหลด
         myimage = load_image_cv(uploaded_file)
         modified_image = prep_image(myimage)
         #นำรูปไป cluters แล้วแสดงเป็น hexcolor
