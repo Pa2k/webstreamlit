@@ -1,6 +1,6 @@
 numpy
 matplotlib
-opencv-python
+opencv-python==4.7.0.68
 streamlit
 scikit-learn ==1.2.1
-opencv-python-headles
+
