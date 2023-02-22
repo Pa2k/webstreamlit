@@ -1,7 +1,6 @@
-streamlit
-sckit-learn
-matplotlib
 numpy
+matplotlib
 opencv-python
-io
+streamlit
+scikit-learn ==1.2.1
 
