@@ -54,7 +54,7 @@ def main():
         #เตรียมรูปจากการอัปโหลด
         myimage = load_image_cv(uploaded_file)
         modified_image = prep_image(myimage)
-        #นำรูปไป cluters แล้วแสดงเป็น hexcolor
+        #นำรูปไป clusters แล้วแสดงเป็น hexcolor
         codecolor = save_model(modified_image)
         #นำ hexcolor ไปสร้าง palette
         palette = load_model(codecolor)
